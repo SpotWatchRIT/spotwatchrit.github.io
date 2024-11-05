@@ -1,0 +1,126 @@
+/* styles.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 400px;
+  background-color: #d4d4d4;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #f57c00;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.header .subtitle {
+  font-size: 14px;
+}
+
+.logout {
+  position: absolute;
+  top: 20px;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.logout.right {
+  right: 20px;
+}
+
+.logout:first-of-type {
+  left: 20px;
+}
+
+.logout{
+    font-size: 2rem;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form label {
+  font-size: 16px;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #f57c00;
+  border-radius: 4px;
+}
+
+.password-field {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f57c00;
+  border-radius: 4px;
+}
+
+.password-field input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.password-field .eye {
+  padding: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #333;
+}
+
+button {
+  background-color: #f57c00;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e66a00;
+}
