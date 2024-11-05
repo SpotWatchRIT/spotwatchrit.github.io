@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lot Management</title>
+  <link rel="stylesheet" href="lotManagment.css">
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="logout">Log out</a>
+    <header class="header">
+      
+      <h1>Lot Management</h1>
+      <span class="subtitle">Rochester Institute of Technology</span>
+      
+    </header>
+    
+    <div class="content">
+      <h2>Lot #1</h2>
+      
+      <form class="form">
+        <label>Lot name:</label>
+        <input type="text" value="Parking Lot G">
+
+        <label>Lot address:</label>
+        <input type="text" value="Bausch Blvd, Rochester, NY 14623">
+
+        <div class="radio-group">
+          <label>Camera Status:</label>
+          <div class="radio-options">
+            <label>
+              <input type="radio" name="camera_status" checked>
+              <span class="radio-button"></span>
+              Active
+            </label>
+            <label>
+              <input type="radio" name="camera_status">
+              <span class="radio-button"></span>
+              Inactive
+            </label>
+          </div>
+        </div>
+
+        <button type="submit">+ Add Lot</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
