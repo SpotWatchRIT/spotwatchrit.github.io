@@ -24,12 +24,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25vh; /* Full viewport height */
     position: relative;
+    flex-direction:  column; /* Stack items vertically */
+    margin: 1%;
 }
-.content h2 {
+.content h2, .content p {
     text-align: center;
-    margin-bottom: 20px;
+    display: block;
 }
 
 .group {
