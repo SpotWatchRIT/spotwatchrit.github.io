@@ -132,4 +132,10 @@
   button:hover {
     background-color: #e66a00;
   }
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
   
